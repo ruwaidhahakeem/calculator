@@ -19,3 +19,33 @@
   padding: 20px;
   border-radius: 10px;
 }
+
+.calculator form input{
+  border :0;
+  height: 60px;
+  width: 60px;
+  border-radius: 10px;
+  font-size: 20px;
+  margin: 10px;
+  cursor: pointer;
+  background: transparent;
+  outline: 5px solid peachpuff;
+}
+
+form .display{
+  display: flex;
+  justify-content: flex-end;
+  margin: 20px 0;
+}
+form .display input{
+  text-align: right;
+  flex: 1;
+  font-size: 45px;
+  box-shadow: none;
+  outline: 5px solid peachpuff;
+}
+
+form input.equal{
+  width: 145px;
+
+}
